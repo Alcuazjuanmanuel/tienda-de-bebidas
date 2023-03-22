@@ -1,0 +1,213 @@
+.Wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.counter-card{
+    width: 18rem;
+    margin-top: -80px;
+    margin-bottom: 15%;
+    margin-left: 899px;
+}
+
+.card-container{
+    background-color: #000000;
+    width: 10rem;
+    border-color: #47f72c3d;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.card-total{
+    margin-bottom: 108px;
+        display: flex;
+        align-items: flex-end;
+        background-color: #000000;
+        border-color: #927e62;
+}
+
+.counter{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 23px;
+}
+
+.btn-agregar{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 15px;
+}
+
+.boton1{
+    margin-right: 15px;
+}
+
+.boton2{
+    margin-left: 15px;
+    margin-right: 0px;
+}
+
+.counter-p{
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    color: white;
+}
+
+.mb-3{
+ max-width: 540px;
+ display: flex;
+}
+
+.nombre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 600;
+    font-style: initial;
+    color: #ae3e3e;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 400;
+    color: #84d4148c;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+.precio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    font-style: bold; 
+    color: #8e7f50;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+.table-bordered>:not(caption)>*>* {
+    border-width: 0px;
+}
+
+td .td-texto{
+    margin-left: 20px;
+    padding-left: 3.5%;
+}
+
+.img-carrito{
+    width: 96px;
+    margin-left: 25%;
+}
+.table-striped {
+    display: inline-table;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.td-img{
+    width: 200px;
+}
+
+.btn-trash{
+    margin-top: 43px;
+    --bs-btn-hover-bg: #dfdfdf00;
+    --bs-btn-border-width: none;
+}
+
+h3{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.btn-vaciarCarrito{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 589px;
+}
+
+.btn-comprar{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 589px;
+}
+
+
+.table-striped{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.table th{
+    padding-left: 5px;
+    padding-right: 20px;
+
+}
+
+.cards{
+
+    transition: all 0.2s ease;
+    cursor: pointer;
+    
+
+  }
+    
+.card-container:hover{
+    transform: scale(1.1);
+    border-color: #000000;
+    background-color: #2a2514a8;
+}
+
+.main{
+    background-color: #000000;
+}
+.carrito-vacio-compra{
+    color: white;
+    margin-top: 165px;
+    margin-bottom: 125px;
+    margin-left: 0px;
+
+}
+.btn-comprar{
+    margin-bottom: 262px;
+    margin-top: -87px
+}
+@media only screen and (max-width: 600px){
+    .btn-vaciarCarrito{
+        margin-left: 40%;
+    }
+    .img-carrito {
+        width: 83px;
+        margin-left: -13px;
+    }
+    .btn-comprar {
+        margin-bottom: 20px;
+        margin-top: 30px;
+        margin-left: 38%;
+        margin-bottom: 51%;
+    }
+    .carrito-vacio-compra{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+            color: white;
+        }
+}
